@@ -21,4 +21,19 @@ How many months will it take him to pay off the car.  How much interest has he p
 84 months
 He will have paid 21711.60 in interest
 """
+print("Calculation of a debt repayment with recurring payments")
+A=float(input("Initial debt: "))
+r=float(input("Intrest rate: "))
+p=float(input("anual payment: "))
+
+r = r * 12
+
+for T in range(1000):
+    A = A - p + r
+    if 0 >= A :
+        break
+
+
+print(f"Total time to repay debt: {T} years")
+print(f"Total debt payed: ${A}")
 

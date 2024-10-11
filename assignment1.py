@@ -13,3 +13,10 @@ Your program should ask the user for
 * The program will calculate the amount of interest earned and display it.
 * Appropriate formatting of the output is a requirement for this assignment
 """
+print("Simple Interest")
+P=float(input("Amount: "))
+r=float(input("Rate: "))
+t=float(input("Time: "))
+i=float(P*r*t)
+
+print(f"Interest:{(i)}")
