@@ -22,3 +22,8 @@ rate: 5%
 10 years
 final balance: 1320.68
 """
+
+print("Reacurring deposits with interest")
+A=float(input("Annual investment: "))
+r=float(input("Rate: "))
+t=int(input("Time: "))
